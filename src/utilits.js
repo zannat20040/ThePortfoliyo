@@ -65,7 +65,6 @@ export const customCursor = () => {
         i = 0,
         o = !1;
       (window.onmousemove = function (s) {
-        // console.log(document.querySelector(this));
         o ||
           (t.style.transform =
             "translate(" + s.clientX + "px, " + s.clientY + "px)"),

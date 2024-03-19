@@ -22,7 +22,6 @@ const Skills = ({ dark }) => {
   }
 
   const sortedSkills = userData?.skills?.slice().sort((a, b) => a.sequence - b.sequence);
-console.log(sortedSkills)
 
   return (
     <div className="dizme_tm_section">
