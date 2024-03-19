@@ -1,0 +1,12 @@
+.hero_social_icon{
+    width: 40px;
+    height: 40px;   
+}
+
+@media screen and (max-width: 446px) {
+    .hero-button{
+        display: flex;
+        flex-direction:column;
+        gap: 5px;
+    }
+}
